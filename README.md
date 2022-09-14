@@ -1,9 +1,7 @@
 # PayTout - Teste de admissão
-***
 Teste realizado com ojetivo de demonstrar conhecimento para a vaga com uso de PHP.
 
-# Como rodar a aplicação
-***
+## Como rodar a aplicação
 Crie um banco de dados MySQL com o script abaixo
 ```sql
 CREATE DATABASE `paytour` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
@@ -32,20 +30,18 @@ $ composer install
 ```
 
 ## Informações importantes
-***
-* Garantir que o php.ini está permitindo upload de arquivos com mais de 2MB
-* O mailtrap.io como servidor de email, certificar-se de alterar o arquivo Model/Email.php com os dados do seu servidor
+* Modificar os dados de acesso ao Banco de dados no arquivo Core/Database.php
+* Garantir que o php.ini está permitindo upload de arquivos com mais de 1MB 
+* O mailtrap.io está como servidor de email, certificar-se de alterar o arquivo Model/Email.php com os dados do seu servidor
 * O upload dos arquivos do formulário será armazenado na pasta files
 
 ## Testes 
-***
 Para realizar testes insira o seguinte comando no terminal
 
 ```console
 $ ./vendor/bin/phpunit Tests/formTest.php --colors
 ```
 ## Linuagens utilizadas
-***
 - PHP
 - HTML
 - CSS
@@ -53,6 +49,5 @@ $ ./vendor/bin/phpunit Tests/formTest.php --colors
 - PHPUnit
 
 ## O que e aprendi com o projeto
-***
 - Como usar o PHPunit para gerar testes unitários
 - Como usar o PHPMailer para disparo de emails

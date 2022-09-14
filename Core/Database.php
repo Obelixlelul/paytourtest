@@ -10,7 +10,7 @@ class Database
     protected $pdo = null;
     private $db_name = 'paytour';
     private $db_user = 'root';
-    private $db_pass = 'M@r1n@s2';
+    private $db_pass = 'root';
     private $db_host = 'localhost';
 
     protected function connect() {
