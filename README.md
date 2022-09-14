@@ -1,4 +1,4 @@
-# PayTout - Teste de admissão
+# PayTour - Teste de admissão
 Teste realizado com ojetivo de demonstrar conhecimento para a vaga com uso de PHP.
 
 ## Como rodar a aplicação
